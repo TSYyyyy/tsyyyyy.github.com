@@ -1,0 +1,117 @@
+@media (min-width: 640px) and (max-width: 960px){
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    li {
+        list-style: none;
+    }
+    .header-contain {
+        display: flex;
+        height: 4.5rem;
+    }
+    .header-text {
+        margin-left: 5%;
+        width: 65%;
+    }
+    .header-text ul li{
+        display: inline-block;
+        margin-left: 3%;
+        line-height: 3.8rem;
+    }
+    .header-text ul li::after{
+        border-color: #2c2c2c;
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        content: "";
+        display: flex;
+        height: 6px;
+        margin-left: 5px;
+        margin-right: 2.25px;
+        transform: rotate(45deg);
+        transform-origin: 75% 75%;
+        transition: transform .1s ease;
+        width: 6px;
+        display: inline-block;
+    }
+    .search {
+        float: right;
+        line-height: 3.8rem;
+    }
+    .search-text {
+        margin-left: 5px;
+    }
+    .logo {
+        width: 15%;
+    }
+    .logo-logo {
+        font-size: 3.5rem;
+        /* float: left; */
+        color: red;
+    }
+    .logo-text {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .theimg {
+        float: left;
+    }
+    .main-context {
+        display: flex;
+        position: relative;
+        width: 100%;
+        height: 40rem;
+    }
+    .main-text {
+        position: absolute;
+        width: 30rem;
+        right: 2.5rem;
+        top: 20rem;
+        font-size: 2rem;
+    }
+    .btn {
+        width: 7rem;
+        height: 2rem;
+        border-radius: 1.3rem;
+        border: none;
+        background-color: #1473e6;
+        margin-top: 1rem;
+        font-size: 1.5rem;
+    }
+    .pictrue {
+        display: flex;
+        margin-top: 2rem;
+    }
+    .pictrue-block {
+        width: 30rem;
+        margin-left: 3rem;
+    }
+    .pictrue-block img {
+        width: 26rem;
+    }
+    .end {
+        display: flex;
+        margin-top: 3rem;
+    }
+    .end-block {
+        width: 25%;
+    }
+    .end-block:nth-child(-n+1){
+        margin-left: 5%;
+    }
+    .end-title {
+        font-size: 2.5rem;
+    }
+    .end-text {
+        font-size: 1.5rem;
+    }
+
+}

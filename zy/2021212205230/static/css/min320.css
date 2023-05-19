@@ -1,0 +1,123 @@
+@media (min-width: 320px) and (max-width: 640px){
+  
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    a {
+        text-decoration: none;
+        color: black;
+    }
+    li {
+        list-style: none;
+    }
+    .header-contain {
+        display: flex;
+        height: 4.5rem;
+    }
+    .header-text {
+        margin-left: 5%;
+        width: 30%;
+    }
+    .header-text ul li{
+        display: none;
+        margin-left: 3%;
+        line-height: 3.8rem;
+    }
+    .header-text ul li::after{
+        border-color: #2c2c2c;
+        border-style: solid;
+        border-width: 0 1px 1px 0;
+        content: "";
+        display: flex;
+        height: 6px;
+        margin-left: 5px;
+        margin-right: 2.25px;
+        transform: rotate(45deg);
+        transform-origin: 75% 75%;
+        transition: transform .1s ease;
+        width: 6px;
+        display: inline-block;
+    }
+    .search {
+        float: right;
+        line-height: 3.8rem;
+    }
+    .search-text {
+        margin-left: 5px;
+    }
+    .logo {
+        width: 50%;
+    }
+    .logo-logo {
+        font-size:2rem;
+        margin-left: 1rem;
+        color: red;
+    }
+    .logo-text {
+        font-size: 1.5rem;
+    }
+    .text {
+        font-size: 20px;
+    }
+    .main-context {
+        width: 100%;
+        height: 40rem;
+    }
+    .main-text {
+        width: 30rem;
+        display: block;
+    }
+    .btn {
+        width: 6rem;
+        height: 2rem;
+        border-radius: 1.3rem;
+        border: none;
+        background-color: #1473e6;
+        margin-top: 1rem;
+    }
+    .pictrue {
+        margin-top: 20rem;
+    }
+    .pictrue-block {
+        width: 30rem;
+        margin-left: 3rem;
+        display: block;
+    }
+    .pictrue-block img {
+        width: 26rem;
+    }
+    .end {
+        margin-top: 3rem;
+    }
+    .end-block {
+        width: 25%;
+        display: block;
+        margin: 0 auto;
+    }
+    .end-title {
+        font-size: 2.5rem;
+    }
+    .end-title::after{
+        border-color: #2c2c2c;
+        border-style: solid;
+        border-width: 0 3px 3px 0;
+        content: "";
+        display: flex;
+        height: 16px;
+        margin-left: 16px;
+        margin-right: 2.25px;
+        transform: rotate(45deg);
+        transform-origin: 75% 75%;
+        transition: transform .1s ease;
+        width: 16px;
+        display: inline-block;
+    }
+    .end-text {
+        font-size: 1.5rem;
+        display: none;
+    }
+
+}
